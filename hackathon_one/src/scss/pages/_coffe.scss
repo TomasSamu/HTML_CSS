@@ -1,0 +1,31 @@
+@import "../common/base";
+
+
+
+span {
+    padding: 10px 7px;
+    h2 {
+        font-size: 17px;
+        margin: 0;
+
+    }
+}
+
+p {
+    font-family: $secondary;
+    i {
+        font-size: 13px;
+    }
+}
+
+.karta {
+    transition: box-shadow .2s, padding .2s, filter 0.2s;
+    filter: opacity(0.97);
+}
+
+.karta:hover { 
+    box-shadow: 11px 14px 99px -27px rgba(0,0,0,0.66);
+    filter: opacity(1);
+    // padding: 2px;
+    
+}

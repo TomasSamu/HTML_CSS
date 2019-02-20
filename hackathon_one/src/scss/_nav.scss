@@ -1,0 +1,46 @@
+@import './common/base';
+
+// common styles 
+
+h1 {
+    font-family: $main;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+nav {
+
+    .nav-link {
+        @include mobile {
+            padding: .2em!important;
+        }
+    }
+
+    a {
+        font-family: $secondary;
+        color: $nav_Links;
+    }
+
+}
+
+
+
+a:active {
+    color: red;
+    
+}
+
+footer {
+    height: 35vh;
+    background: $footer;
+    padding-top: 80px;
+
+    h5 {
+        color: #fff;
+        font-family: $secondary;
+        font-size: .8em;
+    }
+
+    
+}
+

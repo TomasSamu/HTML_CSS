@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <title>Gulp and SASS Demo</title>
+</head>
+
+<body>
+
+        <nav class="navbar navbar-light bg-light d-flex flex-column flex-md-row justify-content-around">
+                <a class="navbar-brand w-25" href="./index.html"><img src="img/logo.svg" alt=""></a>                
+                <div class="row d-flex flex-row">
+                  <a class="nav-link active" href="./index.html">Home</a>
+                  <a class="nav-link" href="./menu.html">Menu</a>
+                  <a class="nav-link" href="./coffee.html">Coffee</a>                  
+                  <a class="nav-link" href="./ourstory.html">Our Story</a>
+                </div>
+        </nav>
+    <div class="container">
+      <div class="row w-100 my-5">
+        <h1>Menu</h1>
+      </div>
+      <div class="row w-100">
+        <div class="col-md-6">
+          <h3>ESPRESSO COFFEE</h3>
+          <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Espresso<span class="badge">3.8</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Double espresso<span class="badge">4.9</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Americano<span class="badge">5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Espresso machiato<span class="badge">4.3</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Cappuccino<span class="badge">5.2</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Flat White<span class="badge">5.9</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Latte<span class="badge">5.9</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Extra shot<span class="badge">1.1</span>
+              </li>
+         </ul>
+         </div>
+        <div class="col-md-6">
+            <h3>FILTER COFFEE</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">House Drip Coffee<span class="badge">4.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Aeropress<span class="badge">5.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">V60<span class="badge">6.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Kalita<span class="badge">12</span>
+                </li>
+                <h3>COFFEE SPECIALITES</h3>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Cascara<span class="badge">5.2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Irish coffee<span class="badge">5.9</span>
+                </li>
+                
+           </ul>
+         </div>
+        <div class="col-md-6">
+            <h3>ICED</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Iced Latte<span class="badge">6.9</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Espresso on the rock<span class="badge">4.9</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Iced Cascara<span class="badge">5.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Affogato<span class="badge">5.9</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Iced Flat white<span class="badge">5.9</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Iced Filter<span class="badge">5.8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Iced tea<span class="badge">4.9</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Iced chocolate<span class="badge">6.2</span>
+                </li>
+           </ul>
+          </div>
+        <div class="col-md-6">
+              <h3>HOT</h3>
+              <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Tea<span class="badge">4.9</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Ginger tea<span class="badge">4.5</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Hot chocolate<span class="badge">4.5</span>
+                  </li>                 
+             </ul>
+          </div>
+        <div class="col-md-6">
+              <h3>SOMETHING TO EAT</h3>
+              <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Soup of the day<span class="badge">5.8</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Chipotle Citrus Chicken Sandwich<span class="badge">5.4</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Avocado Toast<span class="badge">5.6</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center border-0">Super BLT Sandwich<span class="badge">12.8</span>
+                  </li>
+             </ul>
+          </div>
+        <div class="col-md-6">
+                <h3>SWEETS</h3>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">Homemade cakes of the day<span class="badge">5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">Key Lime and Coconut<span class="badge">1.5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">Icecream<span class="badge">2</span>
+                    </li> 
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">Tiramisu<span class="badge">6</span>
+                    </li>                
+               </ul>
+          </div>
+      </div>
+      <h3 class="text-center mw-2 py-5">NON-ALCOHOLIC BEVERAGES</h3>
+      <div class="row w-100">
+        <div class="col-md-6">
+            <h3>LEMONADES</h3>
+          <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Fresh Squeezed Lemonade<span class="badge">5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Ginger Lemonade<span class="badge">4.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Cascara Fizz Original<span class="badge">5.8</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Club-mate Cola<span class="badge">4.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Tonic Thomas Henry<span class="badge">4.3</span>
+              </li>
+              
+         </ul>
+         </div>
+        <div class="col-md-6">
+            <h3>WATER</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Sparkling<span class="badge">2.4</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Still<span class="badge">2.4</span>
+                </li>   
+           </ul>
+         </div>
+      </div>
+      <h3 class=" text-center mw-2 py-5">ALCOHOLIC BEVERAGES</h3>
+      <div class="row w-100 mb-5">
+        <div class="col-md-6">
+            <h3>BEER</h3>
+          <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Small breweries on tap<span class="badge">3.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Birell (bottled)<span class="badge">3.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Cider Magnetic Apple<span class="badge">4.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Club-mate Cola<span class="badge">4.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Tonic Thomas Henry<span class="badge">4.3</span>
+              </li>
+              <h3>WHITE WINE</h3>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Chardonnay Les Vignes de L'Arque,
+                  France<span class="badge">3.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Sauvignon Blanc, Château Le Sartre
+                  Blanc 2011<span class="badge">3.8</span>
+              </li>
+              <h3>RED WINE</h3>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Cuvée Côtes du Rhône Vigneros de
+                  Caracterem<span class="badge">3.5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Cabernet Sauvignon, Château Tour
+                  du Roch-Milon<span class="badge">3.8</span>
+              </li>
+              <h3>COCKTAILS</h3>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Gin Tonic<span class="badge">9</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Gin Tonic<span class="badge">9.9</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0">Mojito<span class="badge">9.9</span>
+              </li>
+         </ul>
+         </div>
+        <div class="col-md-6">
+            <h3>SPIRITS</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Metaxa 12*<span class="badge">7.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Tullamore Dew<span class="badge">6.5</span>
+                </li>   
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Jameson Whiskey<span class="badge">6.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Bombay, Añejo Suave<span class="badge">6.8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Ron Cubay, Añejo Suave<span class="badge">6.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Tequila, El Jimador, Reposado<span class="badge">6.2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Vodka Finlandia<span class="badge">5.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Bailey's<span class="badge">5.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Jagermeister<span class="badge">5.5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">Graham's Tawny Porto<span class="badge">4.7</span>
+                </li>
+                
+           </ul>
+
+          </div>
+        </div>
+        <img class="w-100 bottom-img mx-auto" src="img/espresso-machine-detail.jpg" alt="machine detail">
+    </div>
+
+      <footer class="d-flex flex-column align-items-center pt-5 pt-md-0">
+            <div>
+              <nav class="navbar w-100 h-25 navbar-light  d-flex flex-column flex-md-row justify-content-around mt-md-2 ">
+                <div class="row d-flex flex-row mt-md-5  pt-md-1">
+                  <a class="nav-link active" href="#!">Home</a>
+                  <a class="nav-link" href="#!">Menu</a>
+                  <a class="nav-link" href="#!">Coffee</a>
+                  <a class="nav-link" href="./ourstory.html">Our Story</a>
+                </div>
+              </nav>
+              <h4 class="mt-1 text-center" style="color: #fff">#HIPSTERSMAKECOFFE</h4>
+              <h5 class="mt-1 text-center">Follow us on <a href="https://twitter.com/" target="_blank">Twitter</a> and <a href="https://www.instagram.com/" target="_blank">Instagram</a> </h5>
+            </div>
+        </footer>
+    
+    
+    
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

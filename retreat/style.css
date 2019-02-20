@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box
+}
+
+html{
+    font-size: 18px;
+
+}
+
+body{
+    margin:0;
+
+
+}
+p{
+    font-family: 'Open Sans Regular';
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin:100px;
+    display: block;
+
+}
+h2{
+    font-family: 'Open Sans Bold', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+img{
+    margin:auto;
+    display:block;
+
+}
+.top{
+    height: 800px;
+    background-image: url('../retreat/img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle{
+    height: 2500px;
+    background-image: url('../retreat/img/bg.jpg');
+    background-repeat: repeat-y;
+    /* ackground-size: cover; */
+    background-size: 100% 20%; 
+}
+.bottom{
+    background-color: #2D4823;
+    margin:0;
+}
+
+.bottom h2 {
+    margin:0;
+}
+.tentcontain{
+    height: 450px;
+    width: 450px;
+    background-color:#4F6A13;
+    border: 10px;
+    border-color:black;
+    border-radius: 50%;
+}
+
+.commucontain{
+    height: 450px;
+    width: 450px;
+    background-color:#4F6A13;
+    border: 10px;
+    border-color:black;
+    border-radius: 50%;
+}
+
+.cellcontain{
+    height: 450px;
+    width: 450px;
+    background-color:#4F6A13;
+    border: 10px;
+    border-color:black;
+    border-radius: 50%;
+}
+
+.containall{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center;
+    padding: 0;
+}
+.containvert{
+    height:50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0;
+}
+.containvert2{
+    height:50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}

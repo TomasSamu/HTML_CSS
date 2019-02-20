@@ -1,0 +1,31 @@
+footer {
+    background-color: $black;
+    text-align: center;
+    margin-top: -2em;
+    padding-bottom: 2em;
+
+    ul {
+        list-style: none;
+        padding: 4em;
+
+        li {
+            display: inline-block;
+            padding: 0 1em;
+            a{
+                text-decoration: none;
+                &:hover{
+                    transition: all 0.4s;
+                    color: #fff;
+                }
+            }
+            @media all and (max-width: 466px) {
+                padding: 0 0.2em;
+            }
+        }
+    }
+
+    h4, small {
+        color: white;
+    }
+
+}

@@ -1,0 +1,48 @@
+
+@import '../common/base';
+
+
+h1 {
+    font-family: $main;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+
+.gen-info p {
+    font-family: $secondary;
+    
+    .details {
+        text-transform: capitalize;
+    }
+}
+.container h2 {
+    font-family: $main;
+    font-family: 2.5em!important;
+}
+
+.navbar img {
+    width: 100px;    
+}
+
+.jumbotron {
+    background: url('/img/counter.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+.gen-info {
+    margin-bottom: -40px;
+}
+
+.map {
+    height: 50vh;
+    background: url('/img/map.png');
+    position: relative;
+    bottom: -100px;
+}
+
+.map-web {
+    position: relative;
+    bottom: -120px;
+}

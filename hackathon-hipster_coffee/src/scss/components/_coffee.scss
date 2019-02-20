@@ -1,0 +1,46 @@
+@import '../common/colors';
+
+
+.coffee{
+    padding: 1em;
+    h3{
+        font-size: 3em;
+    }
+    p{
+        line-height: 1.7;
+        font-size: 1.3em;
+    }
+}
+
+
+.card-title{
+    margin-bo
+    h3{
+        font-size: 2em;
+        padding: .6em;
+        background: $gray;
+    }
+
+}
+
+.card{
+    box-shadow:3px 3px 5px 6px #ccc;
+    img{
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: .9em 0;
+        display: inline-block;
+        // background: rgba(216, 216, 216, 0.31) !important;
+        display: block;
+    }
+    p{
+        font-size: 1.5em;
+        background: $gray;
+        line-height: 1.7;
+        font-size: 1.2em;
+        padding: .3em;
+    }
+}

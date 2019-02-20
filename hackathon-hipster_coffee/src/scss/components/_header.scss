@@ -1,0 +1,24 @@
+section.container {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    a.logo {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        max-height: 50vh;
+    }
+    // .row {
+    //     padding: 1em 0;
+    // }
+    @media all and (max-width: 768px) {
+        img {
+            max-height: 20vh;
+        }
+    }
+}

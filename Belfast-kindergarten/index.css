@@ -1,0 +1,95 @@
+html{
+
+}
+body{
+
+}
+
+h1{
+
+}
+
+h2{
+ color: #ffffff;
+ margin: 0px;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 16px;
+}
+
+.bannerimg{
+    background-image: url('../Belfast-kindergarten/img/banner.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: left center;
+    background-size: 100%;
+    
+}
+
+.mission{
+    height: auto;
+    background-color: #ffe964;
+    text-align: center;
+    margin-block-start: 0%;
+    padding: 50px 0px 100px 200px;
+}
+.aboutus{
+    height: auto;
+    background-color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    padding: 50px 0px 100px 200px;
+}
+.ourteam{
+    height: auto;
+    background-color: #ff523d;
+    text-align: center;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    margin: 0px;
+}
+.contact{
+    height: auto;
+    background-color: #223c88;
+    text-align: left;
+    color: white;
+    margin: 0px;
+}
+
+img{
+    align-items: center;
+}
+.yellow{
+    color: #ffe964;
+}
+.red{
+    color: #ff523d;
+}
+.blue{
+    color:#223c88;
+}
+.blackfont{
+    color:black;
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
+}
+.title{
+
+    padding: 100px 0px 0px 200px;
+}
+.team{
+    text-align: left;
+    padding: 100px 0px 50px 200px;
+}
